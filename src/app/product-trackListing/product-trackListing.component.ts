@@ -5,12 +5,12 @@ import { ProductService } from '../product.service';
 import { Album } from '../album';
 
 @Component ({
-    selector: 'app-product-trackListing',
-    templateUrl: './product-trackListing.component.html',
-    styleUrls: ['./product-trackListing.component.css']
+    selector: 'app-product-tracklisting',
+    templateUrl: './product-tracklisting.component.html',
+    styleUrls: ['./product-tracklisting.component.css']
 })
 
-export class ProductTrackListingComponent implements OnInit {
+export class ProducttracklistingComponent implements OnInit {
     
     albumInfo: Album;
 
