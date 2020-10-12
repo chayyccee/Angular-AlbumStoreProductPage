@@ -10,7 +10,7 @@ import { Album } from '../album';
     styleUrls: ['./product-tracklisting.component.css']
 })
 
-export class ProducttracklistingComponent implements OnInit {
+export class ProductTracklistingComponent implements OnInit {
     
     albumInfo: Album;
 
